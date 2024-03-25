@@ -1,0 +1,234 @@
+/* This will be the style document for the landing page */
+
+/* TODO 
+1. Make it so that when narrowing the browser, the padding gives space to content. Maybe using two nested flex divs, the outside one to center, the inside one with space-between.
+item 2 */
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 100px;
+    background-color: #fffdfa;
+    color: rgb(224, 22, 31);
+    font-size: 24px;
+    min-width: 700px;
+}
+
+.header-left {
+    display: flex;
+}
+
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+img.logoImage {
+ width: 100px;
+}
+
+.logoTitle {
+    width: 100px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.section {
+    min-width: 700px;
+    padding: 50px 100px;
+}
+
+.section.one {
+    /* gap: 32px; Chose to use padding on section-left instead*/
+    background-color: rgb(246, 213, 103);
+    text-align: center;
+}
+
+
+.HeroMain {
+    color: #fffdfa;
+    font-size: 48px;
+    font-weight: bolder;
+    text-shadow: -0.5px -0.5px 0 gray, .5px -.5px 0 gray, -.5px .5px 0 gray, .5px .5px 0 gray;
+}
+
+.HeroSecondary {
+    color: #fffdfa;
+    font-size: 24px;
+    /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
+    text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey;
+}
+
+.section.two {
+    padding-top: 0px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    color: rgb(224, 22, 31);
+    font-weight: bolder;
+}
+
+.cards-container {
+    display: flex;
+    gap: 25px;
+    margin: 0 50px;
+
+}
+
+.card {
+    text-align: center;
+    
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(246, 213, 103);
+    border-radius: 8px;
+    margin: 8px auto;
+}
+
+.subtext {
+    font-size: 18px;
+    color: rgb(224, 22, 31);
+}
+
+.section.three {
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(images/malaysia.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.quote-container {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #fffdfa;
+}
+
+.quote-author {
+    margin-top: 1.5em;
+    margin-right: 100px;
+    /* margin-left: auto; */
+    align-self: flex-end;
+}
+
+.quote-author-name {
+    font-size: 24px;
+    color: #fffdfa;
+    font-weight: bold;
+}
+.quote-author-context {
+    font-size: 24px;
+    color: #fffdfa;
+}
+
+.section.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px;
+    border-radius: 25px;
+    gap: 36px;
+}
+
+.action-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.action-subtext {
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+
+button {
+    text-align: center;
+    font-size: 24px;
+    background: rgb(246, 213, 103);
+    border-radius: 8px;
+    border: none;
+    color: #fffdfa;
+    font-family: inherit;
+    padding: 8px 16px;
+    margin: 8px 0;
+  }
+
+button.action-button {
+    text-align: center;
+    font-size: 18px;
+    background: #3882f6;
+    border-radius: 8px;
+    border: solid 2px white;
+    color: #e5e7eb;
+    font-family: inherit;
+    padding: 8px 32px;
+    margin: 8px 0;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    min-width: 700px;
+    padding: 0px 250px;
+  }
+
+  .footer-text {
+    text-align: center;
+    color:#e5e7eb;
+    padding: 24px;
+  }
+
+
+
