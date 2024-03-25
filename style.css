@@ -82,6 +82,18 @@ a {
     text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey;
 }
 
+.HeroMain.founding {
+    color: #fffdfa;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.HeroSecondary.founding {
+    color: #fffdfa;
+    font-size: 24px;
+    /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
+}
+
 .section.two {
     padding-top: 0px;
 }
@@ -101,8 +113,9 @@ a {
 
 .cards-container {
     display: flex;
-    gap: 25px;
+    gap: 100px;
     margin: 0 50px;
+    justify-content: center;
 
 }
 
@@ -129,6 +142,17 @@ a {
     padding-top: 150px;
     padding-bottom: 150px;
     background-image: url(images/malaysia.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.section.founding {
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(images/stock_2.jpg);
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover; 
@@ -171,7 +195,7 @@ a {
 }
 
 .call-to-action {
-    background-color: #3882f6;
+    background-color: rgb(246, 213, 103);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -181,13 +205,13 @@ a {
 }
 
 .action-title {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
 }
 
 .action-subtext {
-    font-size: 14px;
+    font-size: 18px;
     color: #f9faf8;
 }
 
@@ -206,11 +230,11 @@ button {
 
 button.action-button {
     text-align: center;
-    font-size: 18px;
-    background: #3882f6;
+    font-size: 24px;
+    background: rgb(246, 213, 103);
     border-radius: 8px;
     border: solid 2px white;
-    color: #e5e7eb;
+    color: #fffdfa;
     font-family: inherit;
     padding: 8px 32px;
     margin: 8px 0;
