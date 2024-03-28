@@ -72,7 +72,7 @@ a {
     text-align: center;
     padding-bottom: 100px;
     background-image: url(images/stock_2.jpg);
-    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/stock_2.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("images/stock_2.jpg");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover; 
