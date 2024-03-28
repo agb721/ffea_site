@@ -104,7 +104,7 @@ a {
     color: #fffdfa;
     font-size: 32px;
     font-weight: bolder;
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 0.75em;
 
 }
@@ -160,6 +160,7 @@ a {
 
 /* Member cards */
 .cards-container.members {
+    gap: 50px;
 }
 
 .card.member {
