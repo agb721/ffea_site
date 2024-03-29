@@ -93,6 +93,50 @@ a {
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
 }
 
+
+/* Feature cards */
+.cards-container.members {
+    gap: 50px;
+}
+
+.card.feature {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card.feature:hover{
+    filter: opacity(70%);
+}
+
+.card-image.feature {
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 0;
+    margin: 8px auto;
+    overflow: hidden;
+    /* background-size: cover; */
+}
+
+img.feature {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.subtext.feature {
+    font-size: 24px;
+    color: rgb(224, 22, 31);
+    margin: 4px 0;
+    text-align: left;
+    font-weight: bold;
+}
+/* feature cards over */
+
+
 .HeroMain.founding {
     color: #fffdfa;
     font-size: 48px;
