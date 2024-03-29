@@ -95,14 +95,14 @@ a {
 
 
 /* Feature cards */
-.cards-container.members {
-    gap: 50px;
+.cards-container.features {
+    gap: 75px;
 }
 
 .card.feature {
     display: flex;
     width: 350px;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
     flex-wrap: wrap;
 }
@@ -116,9 +116,8 @@ a {
     height: 220px;
     border: none;
     border-radius: 0;
-    margin: 8px auto;
+    margin-bottom: 8px;
     overflow: hidden;
-    /* background-size: cover; */
 }
 
 img.feature {
@@ -130,7 +129,7 @@ img.feature {
 .subtext.feature {
     font-size: 24px;
     color: rgb(224, 22, 31);
-    margin: 4px 0;
+    /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
 }
@@ -169,16 +168,30 @@ img.feature {
     margin: 25px 0;
 }
 
+.section-header.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 .section-title {
     font-size: 36px;
     color: rgb(224, 22, 31);
     font-weight: bolder;
 }
 
+.section-title.features {
+    font-size: 42px;
+    color: rgb(224, 22, 31);
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
 /* General cards */
 .cards-container {
     display: flex;
-    gap: 100px;
+    /* gap: 100px; */
     margin: 0 50px;
     justify-content: center;
     flex-wrap: wrap;
@@ -189,22 +202,23 @@ img.feature {
     text-align: center;
 }
 
-.card-image {
+/* .card-image {
     width: 100px;
     height: 100px;
     border: 2px solid rgb(246, 213, 103);
     border-radius: 8px;
     margin: 8px auto;
-}
+} */
 
-.subtext {
+/* .subtext {
     font-size: 18px;
     color: rgb(224, 22, 31);
-}
+} */
+
 
 /* Member cards */
 .cards-container.members {
-    gap: 50px;
+    gap: 75px;
 }
 
 .card.member {
@@ -216,8 +230,8 @@ img.feature {
 }
 
 .card-image.member {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: none;
     border-radius: 0;
     margin: 8px auto;
