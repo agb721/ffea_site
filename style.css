@@ -14,8 +14,8 @@ body {
     padding: 8px 100px;
     background-color: #fffdfa;
     color: rgb(224, 22, 31);
-    font-size: 24px;
-    min-width: 700px;
+    font-size: 24px; /* before it was 24 */
+    min-width: 500px;
 }
 
 .header-left {
@@ -29,7 +29,7 @@ img {
 }
 
 img.logoImage {
- width: 100px;
+ width: 100px; /* before it was 100px */
 }
 
 .logoTitle {
@@ -57,7 +57,7 @@ a {
 }
 
 .section {
-    min-width: 700px;
+    min-width: 500px;
     padding: 50px 100px;
     background-color: #fffdfa;
 }
@@ -202,6 +202,10 @@ img.feature {
 
 }
 
+.cards-container.features {
+    margin: 0;
+}
+
 .card {
     text-align: center;
 }
@@ -266,7 +270,7 @@ img.member {
     font-style: italic;
 }
 
-.section.three {
+/* .section.three {
     background-color: black;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -276,7 +280,7 @@ img.member {
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover; 
-}
+} */
 
 .quote-container {
     margin: 0 50px;
@@ -311,6 +315,7 @@ img.member {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fffdfa;
 
 }
 
@@ -327,12 +332,12 @@ img.member {
 .action-title {
     font-size: 24px;
     font-weight: bold;
-    color: #f9faf8;
+    color: white;
 }
 
 .action-subtext {
     font-size: 18px;
-    color: #f9faf8;
+    color: white;
 }
 
 
@@ -342,7 +347,7 @@ button {
     background: rgb(246, 213, 103);
     border-radius: 8px;
     border: none;
-    color: #fffdfa;
+    color: white;
     font-family: inherit;
     padding: 8px 16px;
     margin: 8px 0;
@@ -354,7 +359,7 @@ button.action-button {
     background: rgb(246, 213, 103);
     border-radius: 8px;
     border: solid 2px white;
-    color: #fffdfa;
+    color: white;
     font-family: inherit;
     padding: 8px 32px;
     margin: 8px 0;
@@ -375,16 +380,15 @@ button.action-button {
   }
 
 
-  .section.three {
+  .section.slideshow {
     background-color: black;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-image: none;
-    background-color: rgba(0,0,0,0.5);
-    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/malaysia.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    background-size: cover; 
+    /* padding-top: 150px; */
+    /* padding-bottom: 150px; */
+    /* background-image: none;  This one changes the backgrund of the dots*/
+    /* background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/malaysia.jpg"); */
+    /* background-size: 100%; */
+    /* background-attachment: fixed; */
+    /* background-size: cover;  */
     padding: 0 ;
 }
 
@@ -404,13 +408,36 @@ button.action-button {
     padding-bottom: 100px;
     padding-left: 75px;
     padding-right: 75px;
-    background-image: none;
-    background-color: rgba(0,0,0,0.5);
+    /* background-image: none; */
+    /* background-color: red; */
+    /* background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/malaysia.jpg"); */
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover; 
+  }
+
+
+  .mySlides.fade.slide1 {
     background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/malaysia.jpg");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover; 
   }
+
+  .mySlides.fade.slide2 {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/image2.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .mySlides.fade.slide3 {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/landing_placeholder.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
   
   /* Next & previous buttons */
   .prev, .next {
@@ -465,12 +492,22 @@ button.action-button {
     height: 15px;
     width: 15px;
     margin: 0 2px;
+    /* top: 50%;
+    -ms-transform: translateY(-100%); */
+    transform: translateY(-200%);
+    /* margin-bottom: 10px; */
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
+  .dots-div {
+    background-color: transparent;
+    height: 0;
+
+  }
+
   .active, .dot:hover {
     background-color: #717171;
   }
