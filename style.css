@@ -414,6 +414,12 @@ button.action-button {
     margin: 8px 0;
   }
 
+
+button:hover{
+    filter: opacity(70%);
+}
+
+
   .footer {
     background-color: #1f2937;
     display: flex;
