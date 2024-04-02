@@ -389,6 +389,19 @@ img.member {
     color: white;
 }
 
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlink {
+    font-size: 24px;
+    color: rgb(246, 213, 103);
+}
+
+html{
+    scroll-behavior: smooth;;
+  }
 
 button {
     text-align: center;
