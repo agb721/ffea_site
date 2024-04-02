@@ -425,14 +425,14 @@ button.action-button {
   }
 
   .mySlides.fade.slide2 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/image2.png");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/energy_plant.png");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover;
   }
 
   .mySlides.fade.slide3 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/landing_placeholder.png");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/image2.png");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover;
