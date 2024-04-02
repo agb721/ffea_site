@@ -413,6 +413,7 @@ button {
     font-family: inherit;
     padding: 8px 16px;
     margin: 8px 0;
+    cursor: pointer;
   }
 
 button.action-button {
