@@ -34,7 +34,7 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    this.classList.toggle("active_col"); // changed class from "active"to "active_col" to avoid affecting slideshow styling
     var content = this.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;

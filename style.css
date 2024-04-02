@@ -621,7 +621,8 @@ button:hover{
     color: rgb(224, 22, 31);
   }
   
-  .active, .collapsible:hover {
+    /* replaced ".active" with "active_col" to avod styling slideshow buttons*/
+  .active_col, .collapsible:hover {
     /* background-color: #555; */
     background-color: transparent;
   }
@@ -636,7 +637,8 @@ button:hover{
     margin-left: 5px;
   }
   
-  .active:after {
+  /* replaced ".active" with "active_col" to avod styling slideshow buttons*/
+  .active_col:after { 
     content: "\2212";
   }
   
