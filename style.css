@@ -123,7 +123,7 @@ img.logoImage {
     background-size: cover; 
 }
 
-.HeroMain {
+.HeroMain.mission {
     color: white;
     font-size: 48px;
     /* margin-bottom: 32px; */
@@ -131,7 +131,7 @@ img.logoImage {
     /* text-shadow: -0.5px -0.5px 0 gray, .5px -.5px 0 gray, -.5px .5px 0 gray, .5px .5px 0 gray; */
 }
 
-.HeroSecondary {
+.HeroSecondary.mission {
     color: white;
     font-size: 24px;
     max-width: 85ch;
