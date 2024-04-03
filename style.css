@@ -16,7 +16,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 8px 100px;
     background-color: #fffdfa;
     color: rgb(224, 22, 31);
     font-size: 24px; /* before it was 24 */
@@ -85,63 +85,6 @@ img.logoImage {
     display: flex;
     align-items: center;
 }
-
-@media screen and (max-width: 820px) {
-    .header {
-        min-width: 320px;
-        padding: 0 4px;
-        font-size: 18px;
-    }
-
-    .navlinks {
-        display: flex;
-        flex-direction: column;
-        min-width: fit-content;
-        padding: 0 0px;
-        gap: 0;
-    }
-
-    .navlink {
-        font-size: 18px;
-    }
-
-    ul.navbar {
-        display: flex;
-        gap: 16px;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    a {
-        color: #e5e7eb;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    .header-left {
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Slideshow */
-      /* Hide the images by default */
-  .mySlides {
-    background-color: black;
-    padding-top: 175px;
-    padding-bottom: 100px;
-    padding-left: 5px;
-    padding-right: 5px;
-    /* background-image: none; */
-    /* background-color: red; */
-    /* background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/malaysia.jpg"); */
-    background-size: 100%;
-    background-attachment: fixed;
-    background-size: cover; 
-  }
-
-
-  }
 
 
 .section {

@@ -1,0 +1,79 @@
+
+@media screen and (max-width: 820px) {
+    .header {
+        min-width: 160px;
+        padding: 8px 4px;
+        font-size: 18px;
+    }
+
+    .section {
+        min-width: 160px;
+        padding: 0px 0px;
+        background-color: #fffdfa;
+    }
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        min-width: fit-content;
+        padding: 0 0px;
+        gap: 0;
+    }
+
+    .navlink {
+        font-size: 18px;
+    }
+
+    ul.navbar {
+        display: flex;
+        gap: 16px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        color: #e5e7eb;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .header-left {
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Slideshow */
+    .quote {
+        font-size: 18px;
+    }
+
+      /* Hide the images by default */
+  .mySlides {
+    padding-top: 32px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+.quote-author {
+    margin-top: 1.5em;
+    margin-right: 100px;
+    /* margin-left: auto; */
+    align-self: flex-end;
+}
+
+.quote-author-name {
+    font-size: 14px;
+    color: #fffdfa;
+    font-weight: bold;
+}
+.quote-author-context {
+    font-size: 14px;
+    color: #fffdfa;
+}
+
+.dots-div {
+    display: none;
+}
+
+  }
