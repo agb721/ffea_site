@@ -79,7 +79,7 @@
 /* Mission section */
 .HeroMain.mission {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     /* margin-bottom: 32px; */
     font-weight: bolder;
     /* text-shadow: -0.5px -0.5px 0 gray, .5px -.5px 0 gray, -.5px .5px 0 gray, .5px .5px 0 gray; */
@@ -93,10 +93,35 @@
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
 }
-
 .section.one.mission {
     padding: 32px 32px;
 }
+
+/* Features section */
+.section.features {
+    padding: 32px 0;
+}
+
+.section-title.features {
+    font-size: 24px;
+}
+
+.launch_container {
+    flex-direction: column;
+    min-width: 160px;
+}
+
+.launch_text {
+    display: flex;
+    margin-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: start; */
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 8px;
+}
+
 
 
 }
