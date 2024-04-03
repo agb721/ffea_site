@@ -6,6 +6,7 @@ item 2 */
 
 body {
     margin: 0;
+    font-family: optima;
 }
 
 .header {
@@ -15,6 +16,7 @@ body {
     background-color: #fffdfa;
     color: rgb(224, 22, 31);
     font-size: 24px; /* before it was 24 */
+    font-weight: bolder;
     min-width: 500px;
 }
 
@@ -68,6 +70,13 @@ a {
     text-align: center;
 }
 
+#mission_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .section.founding {
     background-color: black;
     text-align: center;
@@ -91,6 +100,7 @@ a {
 .HeroSecondary {
     color: white;
     font-size: 24px;
+    max-width: 85ch;
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
 }
