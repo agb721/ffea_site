@@ -45,13 +45,14 @@
         align-items: center;
     }
 
+
     /* Slideshow */
     .quote {
         font-size: 18px;
     }
 
   .mySlides {
-    padding-top: 32px;
+    padding-top: 120px;
     padding-bottom: 25px;
     padding-left: 8px;
     padding-right: 8px;
@@ -196,7 +197,7 @@
   .footer-text {
     text-align: center;
     color:#e5e7eb;
-    padding: 16px;
+    padding: 18px;
     font-size: 12px;
   }
 

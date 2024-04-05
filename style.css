@@ -10,18 +10,39 @@ item 2 */
 
 body {
     margin: 0;
-    font-family: optima;
+    /* font-family: Garamond, serif; */
+    /* font-family: 'Courier New', monospace; */
+    /* font-family: "Assistant", sans-serif; */
+}
+
+.sansSerif {
+}
+
+.serif {
+}
+
+.header-container {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px 100px;
-    background-color: #fffdfa;
-    color: rgb(224, 22, 31);
+    padding: 0 50px;
+    padding-left: 130px;
+    background-color: rgba(0,0,0,.4);
+
+    /* color: rgb(224, 22, 31); */
+    color: #fffdfa;
     font-size: 24px; /* before it was 24 */
-    font-weight: bolder;
+    /* font-weight: bolder; */
     min-width: 500px;
+    overflow: hidden;
+    /* position: absolute;
+    z-index: 9; */
+    /* height: 34px; */
 }
 
 ul.navbar {
@@ -47,22 +68,27 @@ ul.navbar {
 }
 
 .navlink {
-    font-size: 24px;
     color: rgb(246, 213, 103);
+    /* color: #fffdfa; */
+    color: white;
 }
+
 
 a {
     color: #e5e7eb;
     text-decoration: none;
-    font-size: 18px;
+    font-size: inherit;
     
 }
 
 .header-left {
     display: flex;
-    padding: 0px 0;
+    padding: 8px;
+    background-color: rgba(255,255,255,0.9);
     /* max-height: 100px; */
     align-items: center;
+    /* position: absolute; */
+    z-index: 10;
 }
 
 /* img {
@@ -71,20 +97,57 @@ a {
 } */
 
 img.logoImage {
- max-height: 100px; /* before it was 100px */
- width: auto;
- overflow: hidden;
+ /* max-height: 100px; */
+ height: 64px;
+ /* margin-top: 2em; */
+/* position: absolute; */
+ /* overflow: hidden; */
 }
 
 .logoTitle {
-    display: flex;
-    max-width: 100px;
+    /* display: flex;
+    max-width: 100px; */
 }
 
 .header-right {
     display: flex;
     align-items: center;
 }
+
+
+
+#test {
+    display: none;
+}
+
+
+.social-container {
+    display: flex;
+    gap: 8px;
+}
+
+.social {
+    display: flex;
+    padding: 8px;
+    height: inherit;
+    align-items: center;
+    border: solid .5px black;
+    -webkit-filter: invert(100%);
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.socialLink {
+    height: .75em;
+    width: auto;
+}
+
+
+
+
+
+
+
 
 
 .section {
@@ -380,12 +443,14 @@ img.member {
     margin: 0 50px;
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .quote {
     font-size: 32px;
     font-style: italic;
     color: #fffdfa;
+    min-height: 4em;
 }
 
 .quote-author {
@@ -419,7 +484,7 @@ img.member {
     justify-content: space-between;
     align-items: center;
     padding: 24px 70px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     gap: 36px;
 }
 
@@ -444,26 +509,39 @@ button {
     text-align: center;
     font-size: 24px;
     background: rgb(246, 213, 103);
-    border-radius: 8px;
+    /* border-radius: 8px; */
     border: none;
     color: white;
     font-family: inherit;
     padding: 8px 16px;
     margin: 8px 0;
     cursor: pointer;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
 button.action-button {
     text-align: center;
     font-size: 24px;
     background: rgb(246, 213, 103);
-    border-radius: 8px;
+    /* border-radius: 8px; */
     border: solid 2px white;
     color: white;
     font-family: inherit;
     padding: 8px 32px;
     margin: 8px 0;
+  }
+
+  button.notifications {
+    text-align: center;
+    font-size: inherit;
+    background: rgb(246, 213, 103);
+    /* border-radius: 8px; */
+    /* border: solid 2px white; */
+    border: none;
+    color: white;
+    font-family: inherit;
+    margin: 0;
+    padding: 8px 32px;
   }
 
 
@@ -513,7 +591,7 @@ button:hover{
   /* Hide the images by default */
   .mySlides {
     background-color: black;
-    padding-top: 175px;
+    padding-top: 205px;
     padding-bottom: 100px;
     padding-left: 75px;
     padding-right: 75px;

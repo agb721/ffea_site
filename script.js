@@ -45,3 +45,19 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function testFunction() {
+  // var x = document.getElementById("test");
+  // if (x.style.display === "" || "none") {
+  //   console.log(x.style.display);
+  //   alert("executes if: style is equal to e or n, setting to b");
+  //   x.style.display = "block";
+  // } 
+  // else if (x.style.display === "block") {
+  //   console.log(x.style.display);
+  //   alert("executes else: style is equal to block, setting to n");
+  //   x.style.display = "none";
+  // }
+} 
+
+
