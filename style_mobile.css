@@ -110,6 +110,12 @@
 }
 
 /* Features section */
+
+.cards-container.features.launch {
+    justify-content: center;
+}
+
+
 .section.features {
     padding: 32px 0;
 }
@@ -192,6 +198,14 @@
 .action-subtext {
     display: none;
 }
+
+/* Topics Container */
+.topics-container {
+    /* flex-direction: column; */
+}
+
+
+
 
 /* Footer */
 .footer {

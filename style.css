@@ -11,11 +11,11 @@ item 2 */
 body {
     margin: 0;
     /* font-family: Garamond, serif; */
-    /* font-family: 'Courier New', monospace; */
-    /* font-family: "Assistant", sans-serif; */
+    font-family: "Raleway";
 }
 
 .sansSerif {
+    font-family: "Raleway";
 }
 
 .serif {
@@ -245,9 +245,13 @@ img.logoImage {
     gap: 75px;
 }
 
+.content.features {
+    padding: 0;
+}
+
 .cards-container.features.launch {
     padding-bottom: 50px;
-    justify-content: center;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 0;
     padding: 0;
@@ -319,6 +323,12 @@ img.feature {
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
+}
+
+.feature-author {
+    font: 18px;
+    text-align: left;
+    color: #1f2937;
 }
 
 .subtext.feature.launch {
@@ -510,7 +520,8 @@ img.member {
 /* Topics section */
 .topics-container {
     display: flex;
-    height: 300px;
+    height: 450px;
+    flex-wrap: wrap;
 }
 
 .topic {
@@ -519,7 +530,8 @@ img.member {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 200px;
+    width: 250px;
+    min-width: 250px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 1;
