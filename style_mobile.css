@@ -14,12 +14,21 @@
         background-color: #fffdfa;
     }
 
-    .navlinks {
+    /* .navlinks {
         display: flex;
         flex-direction: column;
         min-width: fit-content;
         padding: 0 0px;
         gap: 0;
+    } */
+
+    /* Make menu symbol visible */
+    /* .topnav {
+        display: block;
+    } */
+
+    .navlinks {
+        display: none;
     }
 
     .navlink {

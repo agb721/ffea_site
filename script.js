@@ -47,6 +47,16 @@ for (i = 0; i < coll.length; i++) {
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function testFunction() {
+  var test = document.getElementById("myLinks");
+  if (test.style.display == "" || test.style.display == "none") {
+    // alert("if")
+    test.style.display = "block";
+    // alert(test.style.display)
+  } else if (test.style.display == "block") {
+    // alert("else")
+    test.style.display = "none";  
+    // alert(test.style.display)
+  }
   // var x = document.getElementById("test");
   // if (x.style.display === "" || "none") {
   //   console.log(x.style.display);

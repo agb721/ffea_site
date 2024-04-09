@@ -30,7 +30,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0;
     padding-left: 130px;
     background-color: rgba(0,0,0,.4);
 
@@ -59,7 +59,7 @@ ul.navbar {
     gap: 32px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-right: 16px;
 }
 
 .navlinks {
@@ -115,15 +115,51 @@ img.logoImage {
 }
 
 
-
-#test {
+/* Collapsible menu */
+.topnav {
     display: none;
-}
+    overflow: normal;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    padding: auto;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 
+
+/* Social media links */
 .social-container {
     display: flex;
-    gap: 8px;
+    justify-content: space-evenly;
 }
 
 .social {
@@ -470,6 +506,30 @@ img.member {
     color: #fffdfa;
 }
 
+
+/* Topics section */
+.topics-container {
+    box-sizing: content-box;
+    display: flex;
+    height: 200px;
+}
+
+.topic {
+    margin: auto;
+    /* background-image: url(images/malaysia.jpg); */
+}
+
+.topic-title {
+    font-size: 24px;
+}
+
+.topic-subtext {
+    font-size: 18px;
+}
+
+
+
+
 .section.four {
     display: flex;
     align-items: center;
@@ -605,21 +665,21 @@ button:hover{
 
 
   .mySlides.fade.slide1 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.2)), url("images/malaysia.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/malaysia.jpg");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover; 
   }
 
   .mySlides.fade.slide2 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/energy_plant.png");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/energy_plant.png");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover;
   }
 
   .mySlides.fade.slide3 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url("images/image2.png");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/image2.png");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover;
