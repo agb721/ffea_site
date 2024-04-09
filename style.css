@@ -509,22 +509,52 @@ img.member {
 
 /* Topics section */
 .topics-container {
-    box-sizing: content-box;
     display: flex;
-    height: 200px;
+    height: 300px;
 }
 
 .topic {
-    margin: auto;
-    /* background-image: url(images/malaysia.jpg); */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+.topicOne {
+
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/topics/china_placeholder.png");
+    background-size: cover;
+}
+
+.topicTwo {
+
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/industry1.jpg");
+    background-size: cover;
+}
+
+.topicThree {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/feature3.png");
+    background-size: cover;
+
+}
+
+.topicText {
+
 }
 
 .topic-title {
     font-size: 24px;
+    color: white;
 }
 
 .topic-subtext {
     font-size: 18px;
+    color: white;
 }
 
 
@@ -651,7 +681,7 @@ button:hover{
   /* Hide the images by default */
   .mySlides {
     background-color: black;
-    padding-top: 205px;
+    padding-top: 250px;
     padding-bottom: 100px;
     padding-left: 75px;
     padding-right: 75px;
@@ -666,21 +696,21 @@ button:hover{
 
   .mySlides.fade.slide1 {
     background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/malaysia.jpg");
-    background-size: 100%;
+    /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover; 
   }
 
   .mySlides.fade.slide2 {
     background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/energy_plant.png");
-    background-size: 100%;
+    /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover;
   }
 
   .mySlides.fade.slide3 {
     background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/image2.png");
-    background-size: 100%;
+    /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover;
   }
