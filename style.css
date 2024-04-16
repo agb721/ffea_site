@@ -9,13 +9,35 @@ item 2 */
 @media (min-width:1100px) { body {font-size:1.5rem;} } */
 
 body {
+
     margin: 0;
     /* font-family: Garamond, serif; */
-    font-family: "Raleway";
+    /* font-family: "Raleway"; */
+    font-family: "Poppins";
+    /* colors original */
+    --almostwhite: #fffdfa;
+    --almostred: rgb(224, 22, 31);
+    --almostyellow: rgb(246, 213, 103);
+    --almostblue: #1f2937;
+    /* font sizes */
+    --fontsize1: 14px;
+    --fontsize2: 18px;
+    --fontsize3: 24px;
+    --fontsize4: 36px;
+
+    /* colors new */
+    --almostwhite: #fffdfa;
+    /* --almostred: #C6122E; */
+    /* --almostyellow: #FFC125; */
+    /* --almostblue: #2A2A50; */
+    --greyblue: #5C749B;
+
+
+
 }
 
 .sansSerif {
-    font-family: "Raleway";
+    /* font-family: "Raleway"; */
 }
 
 .serif {
@@ -35,8 +57,8 @@ body {
     background-color: rgba(0,0,0,.4);
 
     /* color: rgb(224, 22, 31); */
-    color: #fffdfa;
-    font-size: 24px; /* before it was 24 */
+    color: var(--almostwhite);
+    font-size: var(--fontsize3); /* before it was 24 */
     /* font-weight: bolder; */
     min-width: 500px;
     overflow: hidden;
@@ -52,6 +74,7 @@ ul.navbar {
     padding: 0;
     margin: 0;
     align-items: center;
+    font-size: var(--fontsize2);
 }
 
 .navlinks {
@@ -68,7 +91,7 @@ ul.navbar {
 }
 
 .navlink {
-    color: rgb(246, 213, 103);
+    color: var(--almostyellow);
     /* color: #fffdfa; */
     color: white;
 }
@@ -131,7 +154,6 @@ img.logoImage {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
     display: block;
   }
   
@@ -189,12 +211,12 @@ img.logoImage {
 .section {
     min-width: 500px;
     padding: 50px 100px;
-    background-color: #fffdfa;
+    background-color: var(--almostwhite);
 }
 
 .section.one {
     /* gap: 32px; Chose to use padding on section-left instead*/
-    background-color: rgb(246, 213, 103);
+    background-color: var(--almostyellow);
     text-align: center;
 }
 
@@ -224,7 +246,7 @@ img.logoImage {
 
 .HeroMain.mission {
     color: white;
-    font-size: 48px;
+    font-size: var(--fontsize4);
     /* margin-bottom: 32px; */
     font-weight: bolder;
     /* text-shadow: -0.5px -0.5px 0 gray, .5px -.5px 0 gray, -.5px .5px 0 gray, .5px .5px 0 gray; */
@@ -232,9 +254,10 @@ img.logoImage {
 
 .HeroSecondary.mission {
     color: white;
-    font-size: 24px;
+    font-size: var(--fontsize2);
     max-width: 85ch;
     text-align: center;
+    line-height: 180%;
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
 }
@@ -251,7 +274,7 @@ img.logoImage {
 
 .cards-container.features.launch {
     padding-bottom: 50px;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 0;
     padding: 0;
@@ -312,26 +335,28 @@ img.logoImage {
 }
 
 img.feature {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     object-fit: cover
 }
 
 .subtext.feature {
-    font-size: 24px;
-    color: rgb(224, 22, 31);
+    font-size: var(--fontsize2);
+    color: var(--almostred);
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
 }
 
 .feature-author {
-    font: 18px;
+    display: none;
+    font: var(--fontsize2);
     text-align: left;
     color: #1f2937;
 }
 
 .subtext.feature.launch {
+    font-size: var(--fontsize3);
     /* font-size: 24px;
     color: rgb(224, 22, 31);
     text-align: left;
@@ -342,15 +367,15 @@ img.feature {
 
 
 .HeroMain.founding {
-    color: #fffdfa;
-    font-size: 48px;
+    color: var(--almostwhite);
+    font-size: var(--fontsize4);
     font-weight: bolder;
     margin-bottom: 0;
 }
 
 .HeroMain.founding.founders {
-    color: #fffdfa;
-    font-size: 32px;
+    color: var(--almostwhite);
+    font-size: var(--fontsize4);
     font-weight: bolder;
     margin-top: 1.5em;
     margin-bottom: 0.75em;
@@ -358,13 +383,13 @@ img.feature {
 }
 
 .HeroSecondary.founding {
-    color: #fffdfa;
-    font-size: 24px;
+    color:var(--almostwhite);
+    font-size: var(--fontsize2);
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
 }
 
 .section.features {
-    background: #fffdfa;
+    background: var(--almostwhite);
     padding-bottom: 100px;
 }
 
@@ -383,14 +408,14 @@ img.feature {
 }
 
 .section-title {
-    font-size: 36px;
-    color: rgb(224, 22, 31);
+    font-size: var(--fontsize4);
+    color: var(--almostred);
     font-weight: bolder;
 }
 
 .section-title.features {
-    font-size: 42px;
-    color: rgb(224, 22, 31);
+    font-size: var(--fontsize4);
+    color: var(--almostred);
     font-weight: bolder;
     margin-bottom: 1em;
 }
@@ -454,22 +479,22 @@ img.member {
 }
 
 .subtext.member {
-    font-size: 18px;
-    color: #fffdfa;
+    font-size: var(--fontsize2);
+    color: var(--almostwhite);
     margin: 4px 0;
 }
 
 .subtext.member.name {
-    font-size: 18px;
+    font-size: var(--fontsize2);
     font-weight: bold;
 }
 
 .subtext.member.position .subtext.member.affiliation  {
-    font-size: 18px;
+    font-size: var(--fontsize2);
 }
 
 .subtext.member.position  {
-    font-size: 18px;
+    font-size: var(--fontsize2);
     font-style: italic;
 }
 
@@ -493,9 +518,9 @@ img.member {
 }
 
 .quote {
-    font-size: 32px;
+    font-size: var(--fontsize3);
     font-style: italic;
-    color: #fffdfa;
+    color: var(--almostwhite);
     min-height: 4em;
 }
 
@@ -507,20 +532,28 @@ img.member {
 }
 
 .quote-author-name {
-    font-size: 24px;
-    color: #fffdfa;
+    font-size: var(--fontsize2);
+    color: var(--almostwhite);
     font-weight: bold;
 }
 .quote-author-context {
-    font-size: 24px;
-    color: #fffdfa;
+    font-size: var(--fontsize2);
+    color: var(--almostwhite);
 }
+
+
+/* Section banner */
+.section-banner {
+    height: 5vw;
+    background-color: var(--almostwhite);
+}
+
 
 
 /* Topics section */
 .topics-container {
     display: flex;
-    height: 450px;
+    /* height: 450px; */
     flex-wrap: wrap;
 }
 
@@ -530,11 +563,13 @@ img.member {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 250px;
-    min-width: 250px;
+    width: 500px;
+    min-width: 500px;
+    min-height: 400px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 1;
+    padding: 32px;
 }
 
 .topicOne {
@@ -545,12 +580,18 @@ img.member {
 
 .topicTwo {
 
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/industry1.jpg");
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/image1.png");
     background-size: cover;
 }
 
 .topicThree {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/feature3.png");
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/ships.jpg");
+    background-size: cover;
+
+}
+
+.topicFour {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/industry1.jpg");
     background-size: cover;
 
 }
@@ -560,12 +601,13 @@ img.member {
 }
 
 .topic-title {
-    font-size: 24px;
+    font-size: var(--fontsize3);
     color: white;
+    font-weight: bold;
 }
 
 .topic-subtext {
-    font-size: 18px;
+    font-size: var(--fontsize2);
     color: white;
 }
 
@@ -576,12 +618,12 @@ img.member {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fffdfa;
+    background-color: var(--almostwhite);
 
 }
 
 .call-to-action {
-    background-color: rgb(246, 213, 103);
+    background-color: var(--almostyellow);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -591,13 +633,13 @@ img.member {
 }
 
 .action-title {
-    font-size: 24px;
+    font-size: var(--fontsize3);
     font-weight: bold;
     color: white;
 }
 
 .action-subtext {
-    font-size: 18px;
+    font-size: var(--fontsize2);
     color: white;
 }
 
@@ -609,8 +651,8 @@ html{
 
 button {
     text-align: center;
-    font-size: 24px;
-    background: rgb(246, 213, 103);
+    font-size: var(--fontsize3);
+    background: var(--almostyellow);
     /* border-radius: 8px; */
     border: none;
     color: white;
@@ -623,8 +665,8 @@ button {
 
 button.action-button {
     text-align: center;
-    font-size: 24px;
-    background: rgb(246, 213, 103);
+    font-size: var(--fontsize3);
+    background: var(--almostyellow);
     /* border-radius: 8px; */
     border: solid 2px white;
     color: white;
@@ -636,7 +678,7 @@ button.action-button {
   button.notifications {
     text-align: center;
     font-size: inherit;
-    background: rgb(246, 213, 103);
+    background: var(--almostyellow);
     /* border-radius: 8px; */
     /* border: solid 2px white; */
     border: none;
@@ -653,7 +695,7 @@ button:hover{
 
 
   .footer {
-    background-color: #1f2937;
+    background-color: var(--almostblue);
     display: flex;
     justify-content: center;
     min-width: 700px;
@@ -662,8 +704,9 @@ button:hover{
 
   .footer-text {
     text-align: center;
-    color:#e5e7eb;
+    color:var(--almostwhite);
     padding: 24px;
+    font-size: var(--fontsize1);
   }
 
 
@@ -693,7 +736,7 @@ button:hover{
   /* Hide the images by default */
   .mySlides {
     background-color: black;
-    padding-top: 250px;
+    padding-top: 220px;
     padding-bottom: 100px;
     padding-left: 75px;
     padding-right: 75px;
@@ -707,7 +750,7 @@ button:hover{
 
 
   .mySlides.fade.slide1 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/malaysia.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/beachside_iStock-983502316.jpg");
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover; 
@@ -721,7 +764,7 @@ button:hover{
   }
 
   .mySlides.fade.slide3 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/image2.png");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/malaysia.jpg");
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover;
@@ -778,8 +821,8 @@ button:hover{
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
-    height: 18px;
-    width: 18px;
+    height: 14px;
+    width: 14px;
     margin: 0 2px;
     /* top: 50%;
     -ms-transform: translateY(-100%); */
@@ -834,10 +877,10 @@ button:hover{
   }
 
   .collapsible.features {
-    color: rgb(224, 22, 31);
+    color: var(--almostred);
   }
   .collapsible.features:after {
-    color: rgb(224, 22, 31);
+    color: var(--almostred);
   }
   
     /* replaced ".active" with "active_col" to avod styling slideshow buttons*/
