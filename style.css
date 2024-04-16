@@ -754,7 +754,7 @@ button:hover{
 
 
   .mySlides.fade.slide1 {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/beachside_iStock-983502316.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(255,255,255,.1)), url("images/features/beachside_small.jpg");
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover; 
