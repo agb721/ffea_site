@@ -219,13 +219,24 @@ img.logoImage {
 .section.one {
     /* gap: 32px; Chose to use padding on section-left instead*/
     background-color: var(--almostyellow);
-    text-align: center;
+    text-align: left;
 }
 
 #mission_section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 130px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.mission-left {
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; */
+    max-width: 50%;
+    /* padding-right: 64px; */
 }
 
 #members_section {
@@ -258,7 +269,7 @@ img.logoImage {
     color: white;
     font-size: var(--fontsize2);
     max-width: 85ch;
-    text-align: center;
+    /* text-align: center; */
     line-height: 180%;
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
