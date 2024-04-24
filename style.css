@@ -223,10 +223,17 @@ img.logoImage {
 }
 
 #mission_section {
+    background-color: black;
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,.2)), url("images/florida_flag.png");
+    background-size: cover; 
+    background-color: black;
+    background-position: 300px;
+    background-repeat: no-repeat;
     display: flex;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
+    color: var(--almostwhite);
     /* flex-direction: column; */
     /* align-items: center; */
 }
@@ -251,7 +258,7 @@ img.logoImage {
     padding-top: 100px;
     padding-bottom: 100px;
     /* background-image: url(images/image7.jpg); */
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("images/image7.jpg");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("images/features/beach.jpg");
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover; 
