@@ -283,7 +283,7 @@ img.logoImage {
 }
 
 #features_section {
-    background-color: var(--almostyellow);
+    background-color: var(--almostblue);
 }
 
 /* Feature cards */
@@ -293,6 +293,13 @@ img.logoImage {
 
 .content.features {
     padding: 0;
+}
+
+.section-title.features {
+    font-size: var(--fontsize4);
+    color: var(--almostwhite);
+    font-weight: bolder;
+    margin-bottom: 1em;
 }
 
 .cards-container.features.launch {
@@ -306,7 +313,8 @@ img.logoImage {
 
 .launch_container {
     display: flex;
-    background-color:var(--almostblue);
+    display: none;
+    background-color:var(--almostwhite);
     padding: 16px;
     padding-bottom: 8px; 
     /* looks like there is an extra padding at bottom somewhow */
@@ -321,7 +329,7 @@ img.logoImage {
 }
 
 .launch_text {
-    color: var(--almostwhite);
+    color: var(--almostred);
     display: flex;
     max-width: 500px;
     margin-left: 32px;
@@ -332,7 +340,6 @@ img.logoImage {
     overflow: none;
     gap: 8px;
     padding-bottom: 8px;
-    color: var(--almostwhite);
 }
 
 .card.feature {
@@ -341,6 +348,7 @@ img.logoImage {
     /* flex-direction: column; */
     text-align: center;
     flex-wrap: wrap;
+    background-color: var(--almostwhite);
 }
 .card.feature {
     display: flex;
@@ -359,7 +367,7 @@ img.logoImage {
     height: 220px;
     border: none;
     border-radius: 0;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     overflow: hidden;
 }
 
@@ -375,13 +383,21 @@ img.feature {
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
+    margin: 8px;
+    margin-top: 16px;
+    line-height:120%;
 }
 
 .feature-author {
-    display: none;
+    /* display: none; */
+    margin: 8px;
+    margin-top: 0px;
+    padding-top: 8px;
     font: var(--fontsize2);
     text-align: left;
     color: #1f2937;
+    border-top: solid .5px var(--almostblue);
+    line-height:120%;
 }
 
 .subtext.feature.launch {
@@ -442,12 +458,6 @@ img.feature {
     font-weight: bolder;
 }
 
-.section-title.features {
-    font-size: var(--fontsize4);
-    color: var(--almostred);
-    font-weight: bolder;
-    margin-bottom: 1em;
-}
 
 /* General cards */
 .cards-container {
