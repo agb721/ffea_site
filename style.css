@@ -242,7 +242,7 @@ img.logoImage {
     display: flex;
     flex-direction: column; 
     /* align-items: center; */
-    max-width: 50%;
+    max-width: fit-content;
     /* padding-right: 64px; */
 }
 
@@ -275,7 +275,7 @@ img.logoImage {
 .HeroSecondary.mission {
     color: white;
     font-size: var(--fontsize2);
-    max-width: 85ch;
+    max-width: 75ch;
     /* text-align: center; */
     line-height: 150%;
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
@@ -283,7 +283,7 @@ img.logoImage {
 }
 
 #features_section {
-    background-color: var(--almostblue);
+    background-color: var(--almostwhite);
 }
 
 /* Feature cards */
@@ -297,7 +297,7 @@ img.logoImage {
 
 .section-title.features {
     font-size: var(--fontsize4);
-    color: var(--almostwhite);
+    color: var(--almostred);
     font-weight: bolder;
     margin-bottom: 1em;
 }
@@ -383,14 +383,15 @@ img.feature {
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
-    margin: 8px;
-    margin-top: 16px;
+    margin: 8px 0px;
+    /* margin-top: 16px; */
     line-height:120%;
+    font-family: "Montserrat";
 }
 
 .feature-author {
     /* display: none; */
-    margin: 8px;
+    margin: 8px 0px;
     margin-top: 0px;
     padding-top: 8px;
     font: var(--fontsize2);
@@ -619,7 +620,7 @@ img.member {
     align-items: center;
     flex-wrap: wrap;
     width: 500px;
-    min-width: 50vw;
+    min-width: 40vw;
     min-height: 400px;
     /* max-width: 50vw; */
     flex-grow: 1;
@@ -657,7 +658,7 @@ img.member {
 }
 
 .topic-title {
-    font-size: var(--fontsize3);
+    font-size: 28px;
     color: white;
     font-weight: bold;
 }
