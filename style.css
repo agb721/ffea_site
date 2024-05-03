@@ -205,7 +205,7 @@ img.logoImage {
 
 
 
-#new-quote-section {
+#landing-section {
     display: flex;
     position: relative;
     height: 100vh;
@@ -291,6 +291,31 @@ img.logoImage {
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
 }
 
+/* new slides section */
+#new-slides-section {
+    display: flex;
+    height: 80vh;
+    background-color: var(--almostblue);
+    padding: 100px;
+}
+
+.new-class-left {
+    flex-grow: 1;
+    flex-basis: 0;
+    color: var(--almostwhite);
+    font-size: var(--fontsize3);
+    overflow: auto;
+}
+
+.new-class-right {
+    flex-grow: 1.5;
+    background-color: var(--almostyellow);
+}
+
+
+
+
+
 #features_section {
     background-color: var(--almostwhite);
     padding-top: 100px;
@@ -299,6 +324,7 @@ img.logoImage {
 /* Feature cards */
 .cards-container.features {
     gap: 75px;
+    overflow: visible;
 }
 
 .content.features {
@@ -359,7 +385,8 @@ img.logoImage {
     text-align: center;
     flex-wrap: wrap;
     background-color: var(--almostwhite);
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 10px;
 }
 .card.feature {
     display: flex;
@@ -394,22 +421,23 @@ img.feature {
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
-    margin: 8px 0px;
-    /* margin-top: 16px; */
+    /* letter-spacing:0cap; */
+    margin: 8px 12px;
+    margin-top: 12px;
     line-height:120%;
     font-family: "Montserrat";
 }
 
 .feature-author {
     /* display: none; */
-    margin: 8px 0px;
-    margin-top: 0px;
-    padding-top: 8px;
+    margin: 8px 12px;
+    /* padding-top: 8px; */
     font-size: var(--fontsize1);
     text-align: left;
     color: #1f2937;
-    border-top: solid .5px var(--almostblue);
+    /* border-top: solid .5px var(--almostblue); */
     line-height:120%;
+    margin-bottom: 12px;
 }
 
 .subtext.feature.launch {
@@ -427,7 +455,7 @@ img.feature {
     color: var(--almostwhite);
     font-size: var(--fontsize4);
     font-weight: bolder;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 .HeroMain.founding.founders {
