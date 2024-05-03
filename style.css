@@ -293,7 +293,8 @@ img.logoImage {
 
 /* new slides section */
 #new-slides-section {
-    display: flex;
+    display: none;
+    /* display: flex; */
     height: 80vh;
     background-color: var(--almostblue);
     padding: 100px;
@@ -665,7 +666,7 @@ img.member {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 1;
-    padding: 32px;
+    padding: 100px;
 }
 
 .topicOne {
