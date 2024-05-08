@@ -23,7 +23,6 @@ body {
     --fontsize1: 14px;
     --fontsize2: 18px;
     --fontsize3: 24px;
-    --fontsize3_5: 36px;
     --fontsize4: 54px;
 
     /* colors new */
@@ -303,7 +302,7 @@ img.logoImage {
 }
 
 .overlap {
-    color: var(--almostwhite);
+    color: white;
 }
 
 .new-class-left {
@@ -316,7 +315,7 @@ img.logoImage {
 .new-class-intro {
     font-size: var(--fontsize4);
     font-weight: bold;
-    margin: 56px 72px;
+    margin: 95px 120px;
     flex-grow: 1;
     flex-basis: 0;
     /* background-color: rgba(0,0,0,.5); */
@@ -327,30 +326,30 @@ img.logoImage {
 .new-class-middle {
     font-size: var(--fontsize3);
     line-height: 2;
-    padding: 24px;
+    padding: 24px 36px;
     flex-grow: 1;
     flex-basis: 0;
     /* background-color: rgba(31, 41, 55, 0.5); */
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.4);
     position: absolute;
     word-wrap: break-word;
     transform: translate(0, -50%);
     max-width: 70vw;
-    left: 15vw;
+    left: 12vw;
     top: 60%;
 }
 
 .author {
     text-align: end;
-    margin: 0px 24px;
+    margin: 0px 0px;
 }
 
 .new-class-right {
-    flex-grow: 2.5;
+    flex-grow: 3;
     /* margin: 24px; */
     background-color: var(--almostyellow);
     /* background-image: url("./images/beachside_iStock-983502316.jpg"); */
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("images/features/ships.jpg");
+    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/lance-asper-G9fpJ0OozaI-unsplash.jpg");
     background-size: cover;
 }
 
@@ -373,7 +372,7 @@ img.logoImage {
 
 .section-title.features {
     font-size: var(--fontsize4);
-    color: var(--almostred);
+    color: var(--almostblue);
     font-weight: bolder;
     margin-bottom: 1em;
 }
@@ -424,7 +423,7 @@ img.logoImage {
     /* flex-direction: column; */
     text-align: center;
     flex-wrap: wrap;
-    background-color: var(--almostwhite);
+    /* background-color: rgba(31, 41, 55, 0.1); */
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     margin-bottom: 10px;
 }
@@ -457,7 +456,7 @@ img.feature {
 
 .subtext.feature {
     font-size: var(--fontsize2);
-    color: var(--almostred);
+    color: var(--almostblue);
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
