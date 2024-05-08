@@ -23,6 +23,7 @@ body {
     --fontsize1: 14px;
     --fontsize2: 18px;
     --fontsize3: 24px;
+    --fontsize3_5: 36px;
     --fontsize4: 54px;
 
     /* colors new */
@@ -295,7 +296,7 @@ img.logoImage {
 #new-slides-section {
     /* display: none; */
     display: flex;
-    height: 80vh;
+    height: 95vh;
     background-color: var(--almostblue);
     /* padding: 100px; */
     position: relative;
@@ -312,7 +313,20 @@ img.logoImage {
     overflow: auto;
 }
 
+.new-class-intro {
+    font-size: var(--fontsize4);
+    font-weight: bold;
+    margin: 56px 72px;
+    flex-grow: 1;
+    flex-basis: 0;
+    /* background-color: rgba(0,0,0,.5); */
+    position: absolute;
+    word-wrap: break-word;
+}
+
 .new-class-middle {
+    font-size: var(--fontsize3);
+    line-height: 2;
     padding: 24px;
     flex-grow: 1;
     flex-basis: 0;
@@ -322,14 +336,21 @@ img.logoImage {
     word-wrap: break-word;
     transform: translate(0, -50%);
     max-width: 70vw;
-    left: 10vw;
-    top: 50%;
+    left: 15vw;
+    top: 60%;
+}
+
+.author {
+    text-align: end;
+    margin: 0px 24px;
 }
 
 .new-class-right {
-    flex-grow: 2;
+    flex-grow: 2.5;
+    /* margin: 24px; */
     background-color: var(--almostyellow);
-    background-image: url("./images/beachside_iStock-983502316.jpg");
+    /* background-image: url("./images/beachside_iStock-983502316.jpg"); */
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("images/features/ships.jpg");
     background-size: cover;
 }
 
