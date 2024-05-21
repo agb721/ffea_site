@@ -308,7 +308,7 @@ img.logoImage {
     /* display: none; */
     display: flex;
     height: 95vh;
-    background-color: #7F402E;
+    background-color: #F9B126;
     /* padding: 100px; */
     position: relative;
 }
@@ -475,7 +475,7 @@ img.feature {
     font-size: var(--fontsize1);
     margin-top: 12px;
     text-align: left;
-    color: #7F402E;
+    color: #D3332B;
 }
 
 .subtext.feature {
@@ -496,7 +496,7 @@ img.feature {
     /* padding-top: 8px; */
     font-size: var(--fontsize1);
     text-align: left;
-    color: #7F402E;
+    color: #2D0D0B;
     /* border-top: solid .5px var(--almostblue); */
     line-height:120%;
     margin-bottom: 12px;
