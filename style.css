@@ -15,10 +15,16 @@ body {
     /* font-family: "Raleway"; */
     font-family: "Montserrat", sans-serif;
     /* colors original */
-    --almostwhite: #fffdfa;
+    /* --almostwhite: #fffdfa;
     --almostred: rgb(224, 22, 31);
-    --almostyellow: rgb(246, 213, 103);
-    --almostblue: #1f2937;
+    --almostyellow: )rgb(246, 213, 103;
+    --almostblue: #1f2937; */
+
+    --almostwhite: #D8D7D7;
+    --almostred: #CC3446;
+    --almostyellow: #F9B126;
+    --almostblue: #D2342B;
+
     /* font sizes */
     --fontsize1: 14px;
     --fontsize2: 18px;
@@ -83,7 +89,8 @@ ul.navbar {
     gap: 32px;
     list-style: none;
     padding: 0;
-    margin-right: 16px;
+    margin-right: 32px;
+
 }
 
 .navlinks {
@@ -209,7 +216,8 @@ img.logoImage {
     display: flex;
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("images/features/beachside_small.jpg");
+    /* background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/features/beachside_small.jpg"); */
+    background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/features/lance-asper-G9fpJ0OozaI-unsplash.jpg");
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover; 
@@ -230,12 +238,14 @@ img.logoImage {
     text-align: left;
 }
 
+
 #mission_section {
-    background-color: black;
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,.2)), url("images/florida_flag.png");
+    /* background-color: rgb(39, 44, 43); */
     background-size: cover; 
-    background-color: black;
-    background-position: 300px;
+    background-image: url("images/florida_flag.png");
+    background: linear-gradient(to right, rgba(0,0,0,.0), rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,1)), url("images/florida_flag.png");
+    /* background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.4), rgba(0,0,0,1)), url("images/florida_flag.png"); */
+    /* background-position: 300px; */
     background-repeat: no-repeat;
     display: flex;
     padding-top: 100px;
@@ -266,7 +276,7 @@ img.logoImage {
     padding-top: 100px;
     padding-bottom: 100px;
     /* background-image: url(images/image7.jpg); */
-    background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url("images/features/lucas-sankey-gdQ_az6CSPo-unsplash.jpg");
+    background: linear-gradient(rgba(5, 13, 11,.9), rgba(5, 13, 11,.8)), url("images/tim-mossholder-gDN3m6Xc1bw-unsplash.jpg");
     /* background-color: var(--almostblue); */
     background-size: 100%;
     background-attachment: fixed;
@@ -276,7 +286,7 @@ img.logoImage {
 .HeroMain.mission {
     color: white;
     font-size: var(--fontsize4);
-    /* margin-bottom: 32px; */
+    margin-bottom: 16px;
     font-weight: bolder;
     /* text-shadow: -0.5px -0.5px 0 gray, .5px -.5px 0 gray, -.5px .5px 0 gray, .5px .5px 0 gray; */
 }
@@ -284,9 +294,11 @@ img.logoImage {
 .HeroSecondary.mission {
     color: white;
     font-size: var(--fontsize2);
-    max-width: 75ch;
+    max-width: 65ch;
+    margin-left: 64px;
     /* text-align: center; */
     line-height: 150%;
+    margin-bottom: 64px;
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
     /* text-shadow: -0.3px -0.3px 0 darkgrey, .3px -.3px 0 darkgrey, -.3px .3px 0 darkgrey, .3px .3px 0 darkgrey; */
 }
@@ -296,7 +308,7 @@ img.logoImage {
     /* display: none; */
     display: flex;
     height: 95vh;
-    background-color: var(--almostblue);
+    background-color: #7F402E;
     /* padding: 100px; */
     position: relative;
 }
@@ -315,7 +327,9 @@ img.logoImage {
 .new-class-intro {
     font-size: var(--fontsize4);
     font-weight: bold;
-    margin: 95px 120px;
+    margin: 0px 120px;
+    margin-top: 85px;
+    margin-bottom: 40px;
     flex-grow: 1;
     flex-basis: 0;
     /* background-color: rgba(0,0,0,.5); */
@@ -324,32 +338,34 @@ img.logoImage {
 }
 
 .new-class-middle {
-    font-size: var(--fontsize3);
+    font-size: var(--fontsize2);
     line-height: 2;
     padding: 24px 36px;
+    padding-top: 36px;
     flex-grow: 1;
     flex-basis: 0;
     /* background-color: rgba(31, 41, 55, 0.5); */
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.6);
     position: absolute;
     word-wrap: break-word;
     transform: translate(0, -50%);
-    max-width: 70vw;
-    left: 12vw;
+    max-width: 65vw;
+    left: 18vw;
     top: 60%;
 }
 
 .author {
     text-align: end;
     margin: 0px 0px;
+    font-size: var(--fontsize1);
 }
 
 .new-class-right {
-    flex-grow: 3;
+    flex-grow: 2;
     /* margin: 24px; */
     background-color: var(--almostyellow);
     /* background-image: url("./images/beachside_iStock-983502316.jpg"); */
-    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/lance-asper-G9fpJ0OozaI-unsplash.jpg");
+    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/daniel-obregon-SvpbutDwadU-unsplash.jpg");
     background-size: cover;
 }
 
@@ -424,7 +440,7 @@ img.logoImage {
     text-align: center;
     flex-wrap: wrap;
     /* background-color: rgba(31, 41, 55, 0.1); */
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     margin-bottom: 10px;
 }
 .card.feature {
@@ -454,30 +470,38 @@ img.feature {
     object-fit: cover
 }
 
+.feature-description {
+    font-weight: normal;
+    font-size: var(--fontsize1);
+    margin-top: 12px;
+    text-align: left;
+    color: #7F402E;
+}
+
 .subtext.feature {
-    font-size: var(--fontsize2);
+    font-size: var(--fontsize3);
     color: var(--almostblue);
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
     /* letter-spacing:0cap; */
-    margin: 8px 12px;
-    margin-top: 12px;
-    line-height:120%;
-    font-family: "Montserrat";
+    margin: 0px 0px;
+    line-height:100%;
+    /* font-family: "Montserrat"; */
 }
 
 .feature-author {
     /* display: none; */
-    margin: 8px 12px;
+    margin: 12px 0px;
     /* padding-top: 8px; */
     font-size: var(--fontsize1);
     text-align: left;
-    color: #1f2937;
+    color: #7F402E;
     /* border-top: solid .5px var(--almostblue); */
     line-height:120%;
     margin-bottom: 12px;
 }
+
 
 .subtext.feature.launch {
     font-size: var(--fontsize3);
@@ -678,8 +702,13 @@ img.member {
 
 /* Section banner */
 .section-banner {
-    height: 5vw;
+    height: 3vw;
     background-color: var(--almostwhite);
+}
+
+.section-banner.brown {
+    height: 1vw;
+    background-color: ;
 }
 
 
@@ -689,22 +718,26 @@ img.member {
     display: flex;
     /* height: 450px; */
     flex-wrap: wrap;
+    background-color: var(--almostwhite);
+    /* padding: 32px; */
 }
 
 .topic {
     display: flex;
+    /* box-sizing: border-box; */
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 500px;
-    min-width: 40vw;
-    min-height: 400px;
+    width: 300px;
+    min-width: 25vw;
+    min-height: 200px;
     /* max-width: 50vw; */
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 1;
     padding: 100px;
+    margin: 1px;
 }
 
 .topicOne {
@@ -715,7 +748,7 @@ img.member {
 
 .topicTwo {
 
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/image1.png");
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/malaysia.jpg");
     background-size: cover;
 }
 
@@ -726,13 +759,13 @@ img.member {
 }
 
 .topicFour {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/industry1.jpg");
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/denys-kostyuchenko-FQjUaIMQF3Q-unsplash.jpg");
     background-size: cover;
 
 }
 
 .topicText {
-
+    /* background-color: rgba(0, 0, 0, 0.4); */
 }
 
 .topic-title {
@@ -830,7 +863,7 @@ button:hover{
 
 
   .footer {
-    background-color: var(--almostblue);
+    background-color: #7F402E;
     display: flex;
     justify-content: center;
     min-width: 700px;
@@ -862,10 +895,10 @@ button:hover{
   }
 
   .collapsible.features {
-    color: var(--almostred);
+    color: var(--almostblue);
   }
   .collapsible.features:after {
-    color: var(--almostred);
+    color: var(--almostblue);
   }
   
     /* replaced ".active" with "active_col" to avod styling slideshow buttons*/
