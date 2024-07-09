@@ -896,10 +896,10 @@ button:hover{
   }
 
   .collapsible.features {
-    color: var(--almostblue);
+    color: var(--almostred);
   }
   .collapsible.features:after {
-    color: var(--almostblue);
+    color: var(--almostred);
   }
   
     /* replaced ".active" with "active_col" to avod styling slideshow buttons*/
