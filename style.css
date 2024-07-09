@@ -23,7 +23,7 @@ body {
     --almostwhite: #D8D7D7;
     --almostred: #CC3446;
     --almostyellow: #F9B126;
-    --almostblue: #D2342B;
+    --almostblue: #1f2937;
 
     /* font sizes */
     --fontsize1: 14px;
@@ -308,7 +308,7 @@ img.logoImage {
     /* display: none; */
     display: flex;
     height: 95vh;
-    background-color: #CF822E;
+    background-color:var(--almostblue);
     /* padding: 100px; */
     position: relative;
 }
@@ -338,7 +338,7 @@ img.logoImage {
 }
 
 .new-class-middle {
-    font-size: var(--fontsize2);
+    font-size: var(--fontsize3);
     line-height: 2;
     padding: 24px 36px;
     padding-top: 36px;
@@ -365,7 +365,8 @@ img.logoImage {
     /* margin: 24px; */
     background-color: var(--almostyellow);
     /* background-image: url("./images/beachside_iStock-983502316.jpg"); */
-    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/daniel-obregon-SvpbutDwadU-unsplash.jpg");
+    /* background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/denys-kostyuchenko-FQjUaIMQF3Q-unsplash.jpg"); */
+    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/stock-photo-american-flag-attached-to-porch-of-house-769061548.jpg");
     background-size: cover;
 }
 
@@ -388,7 +389,7 @@ img.logoImage {
 
 .section-title.features {
     font-size: var(--fontsize4);
-    color: var(--almostblue);
+    color: var(--almostred);
     font-weight: bolder;
     margin-bottom: 1em;
 }
@@ -480,7 +481,7 @@ img.feature {
 
 .subtext.feature {
     font-size: var(--fontsize3);
-    color: var(--almostblue);
+    color: var(--almostred);
     /* margin: 4px 0; */
     text-align: left;
     font-weight: bold;
@@ -737,7 +738,7 @@ img.member {
     flex-shrink: 1;
     flex-basis: 1;
     padding: 100px;
-    margin: 1px;
+    margin: 2px;
 }
 
 .topicOne {
@@ -863,7 +864,7 @@ button:hover{
 
 
   .footer {
-    background-color: #7F402E;
+    background-color: var(--almostblue);
     display: flex;
     justify-content: center;
     min-width: 700px;
