@@ -202,18 +202,19 @@ img.logoImage {
 
 #landing-section {
     background: linear-gradient(rgba(5, 13, 11, .6), rgba(5, 13, 11, .6)), url("images/lance-asper-G9fpJ0OozaI-unsplash_compressed.jpg");
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll; /* Change to scroll for better mobile performance */
     display: flex;
     position: relative;
-    height: 100vh;
+    color: var(--almostwhite);
 }
 
 @media (max-width: 768px) {
     #landing-section {
-        background-attachment: scroll; /* Remove fixed background for better performance on mobile */
+        background-size: cover;
+        background-attachment: scroll; /* Ensure background is not fixed on mobile */
     }
 }
 
