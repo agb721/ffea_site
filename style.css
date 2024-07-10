@@ -200,7 +200,6 @@ img.logoImage {
 
 /* LANDING START */
 
-
 #landing-section {
     background: linear-gradient(rgba(5, 13, 11, .6), rgba(5, 13, 11, .6)), url("images/lance-asper-G9fpJ0OozaI-unsplash_compressed.jpg");
     background-size: cover; 
@@ -210,6 +209,12 @@ img.logoImage {
     display: flex;
     position: relative;
     height: 100vh;
+}
+
+@media (max-width: 768px) {
+    #landing-section {
+        background-attachment: scroll; /* Remove fixed background for better performance on mobile */
+    }
 }
 
 #mission_section {
@@ -222,8 +227,6 @@ img.logoImage {
     padding-bottom: 80px;
     padding-left: 130px;
     color: var(--almostwhite);
-    /* flex-direction: column; */
-    /* align-items: center; */
 }
 
 .section {
