@@ -129,7 +129,7 @@ padding-right: 8px;
 }
 
 .section-title.features {
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
 .launch_container {
@@ -156,6 +156,17 @@ padding-right: 8px;
     padding-bottom: 8px;
 }
 
+/* New Section CONSIDER RE-CODING FOR MOBILE COMPATIBILITY */
+
+/* .new-class-intro {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px 20px;
+    padding-top: 36px;
+}
+
+
+
 /* Members section */
 .section.founding {
     padding: 32px 16px;
@@ -181,6 +192,14 @@ padding-right: 8px;
     /* text-shadow: -0.3px -0.3px 0 grey, .3px -.3px 0 grey, -.3px .3px 0 grey, .3px .3px 0 gray; */
 }
 
+
+
+/* Topics Container */
+.topics-container {
+    /* flex-direction: column; */
+}
+
+
 /* Call to  action */
 .section.four {
     padding: 32px 16px;
@@ -205,11 +224,6 @@ padding-right: 8px;
 
 .action-subtext {
     display: none;
-}
-
-/* Topics Container */
-.topics-container {
-    /* flex-direction: column; */
 }
 
 

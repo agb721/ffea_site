@@ -714,7 +714,7 @@ img.member {
 
 .section-banner.brown {
     height: 1vw;
-    background-color: ;
+    background-color: white;
 }
 
 
@@ -787,7 +787,7 @@ img.member {
 
 
 
-
+/* CALL TO ACTION SECTION */
 .section.four {
     display: flex;
     align-items: center;
@@ -795,7 +795,6 @@ img.member {
     background-color: var(--almostwhite);
 
 }
-
 .call-to-action {
     background-color: var(--almostyellow);
     display: flex;
@@ -805,13 +804,11 @@ img.member {
     /* border-radius: 25px; */
     gap: 36px;
 }
-
 .action-title {
     font-size: var(--fontsize3);
     font-weight: bold;
     color: white;
 }
-
 .action-subtext {
     font-size: var(--fontsize2);
     color: white;
@@ -823,6 +820,7 @@ html{
     font-size:100%;
   }
 
+BUTTONS
 button {
     text-align: center;
     font-size: var(--fontsize3);
@@ -836,7 +834,6 @@ button {
     cursor: pointer;
     /* font-weight: bold; */
   }
-
 button.action-button {
     text-align: center;
     font-size: var(--fontsize3);
@@ -848,7 +845,6 @@ button.action-button {
     padding: 8px 32px;
     margin: 8px 0;
   }
-
   button.notifications {
     text-align: center;
     font-size: inherit;
@@ -861,13 +857,11 @@ button.action-button {
     margin: 0;
     padding: 8px 32px;
   }
-
-
 button:hover{
     filter: opacity(70%);
 }
 
-
+/* FOOTER */
   .footer {
     background-color: var(--almostblue);
     display: flex;
