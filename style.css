@@ -217,7 +217,7 @@ img.logoImage {
     position: relative;
     height: 100vh;
     /* background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/features/beachside_small.jpg"); */
-    background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/features/lance-asper-G9fpJ0OozaI-unsplash.jpg");
+    background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/lance-asper-G9fpJ0OozaI-unsplash_compressed.jpg");
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover; 
@@ -754,7 +754,7 @@ img.member {
 }
 
 .topicThree {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/features/ships.jpg");
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/ships_compressed.jpg");
     background-size: cover;
 
 }
