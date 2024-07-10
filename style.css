@@ -199,15 +199,33 @@ img.logoImage {
 
 
 /* LANDING START */
+
+
 #landing-section {
+    background: linear-gradient(rgba(5, 13, 11, .6), rgba(5, 13, 11, .6)), url("images/lance-asper-G9fpJ0OozaI-unsplash_compressed.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/lance-asper-G9fpJ0OozaI-unsplash_compressed.jpg");
-    /* background-size: 100%; */
-    background-attachment: fixed;
-    background-size: cover; 
 }
+
+#mission_section {
+    background-size: cover; 
+    background-image: url("images/florida_flag.png");
+    background: linear-gradient(to right, rgba(0,0,0,.0), rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,1)), url("images/florida_flag.png");
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 130px;
+    color: var(--almostwhite);
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
 .section {
     min-width: 500px;
     padding: 50px 100px;
@@ -249,13 +267,13 @@ img.logoImage {
     /* min-height: 4em; */
 }
 
+/* Currently not in use */
 .quote-author {
     margin-top: 1.5em;
     margin-right: 100px;
     /* margin-left: auto; */
     align-self: flex-end;
 }
-
 .quote-author-name {
     font-size: var(--fontsize2);
     color: var(--almostwhite);

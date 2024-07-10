@@ -55,18 +55,24 @@
     }
 
 
-    /* Slideshow */
-    .quote {
-        font-size: 32px;
-        text-align-last: left;
-    }
+/* Landing Section*/
 
-  .mySlides {
-    padding-top: 120px;
-    padding-bottom: 25px;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
+#landing-section {
+}
+
+
+.quote {
+    font-size: 32px;
+    text-align: center;
+    text-align-last: center;
+}
+
+.mySlides {
+padding-top: 120px;
+padding-bottom: 25px;
+padding-left: 8px;
+padding-right: 8px;
+}
 
 .quote-author {
     margin-top: 1.5em;
