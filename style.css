@@ -9,7 +9,6 @@ item 2 */
 @media (min-width:1100px) { body {font-size:1.5rem;} } */
 
 body {
-
     margin: 0;
     /* font-family: Garamond, serif; */
     /* font-family: "Raleway"; */
@@ -37,19 +36,18 @@ body {
     /* --almostyellow: #FFC125; */
     /* --almostblue: #2A2A50; */
     --greyblue: #5C749B;
-
-
-
 }
 
+/* Establish font types */
 .sansSerif {
     font-family: "Hind", sans-serif;
 }
-
 .serif {
     font-family: "Montserrat", sans-serif;
 }
 
+/* HEADER START */
+/* Contains logo, menu and social media links */
 .header-container {
     position: absolute;
     width: 100%;
@@ -62,7 +60,6 @@ body {
     padding: 0;
     padding-left: 130px;
     background-color: rgba(0,0,0,.4);
-
     /* color: rgb(224, 22, 31); */
     color: var(--almostwhite);
     font-size: var(--fontsize3); /* before it was 24 */
@@ -104,12 +101,10 @@ ul.navbar {
     color: white;
 }
 
-
 a {
     color: #e5e7eb;
     text-decoration: none;
-    font-size: inherit;
-    
+    font-size: inherit;   
 }
 
 .header-left {
@@ -122,11 +117,6 @@ a {
     /* position: absolute; */
     z-index: 10;
 }
-
-/* img {
-    max-width: 100%;
-    margin: auto;
-} */
 
 img.logoImage {
  /* max-height: 100px; */
@@ -147,7 +137,7 @@ img.logoImage {
 }
 
 
-/* Collapsible menu */
+/* Collapsible menu CURRENTLY NOT DISPLAYED*/
 .topnav {
     display: none;
     overflow: normal;
@@ -185,14 +175,11 @@ img.logoImage {
     color: white;
   }
 
-
-
 /* Social media links */
 .social-container {
     display: flex;
     justify-content: space-evenly;
 }
-
 .social {
     display: flex;
     padding: 8px;
@@ -203,42 +190,84 @@ img.logoImage {
     border-radius: 50%;
     background-color: transparent;
 }
-
 .socialLink {
     height: .75em;
     width: auto;
 }
+/* HEADER END */
 
 
 
-
+/* LANDING START */
 #landing-section {
     display: flex;
     position: relative;
     height: 100vh;
-    /* background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/features/beachside_small.jpg"); */
     background: linear-gradient(rgba(5, 13, 11,.6), rgba(5, 13, 11, .6)), url("images/lance-asper-G9fpJ0OozaI-unsplash_compressed.jpg");
     /* background-size: 100%; */
     background-attachment: fixed;
     background-size: cover; 
 }
-
-
-
-
 .section {
     min-width: 500px;
     padding: 50px 100px;
     background-color: var(--almostwhite);
 }
-
 .section.one {
     /* gap: 32px; Chose to use padding on section-left instead*/
     background-color: var(--almostyellow);
     text-align: left;
 }
+/* Landng quote */
+.quote-container {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+    height: fit-content;
+    /* padding-top: 40vh; */
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#slide-button {
+    margin-top: 80px;
+    background-color: transparent;
+    font-size: var(--fontsize2);
+    border: solid 1px var(--almostwhite);
+}
+
+.quote {
+    margin-top: 120px;
+    text-align-last: right; /* puts last word to the right */
+    font-size: var(--fontsize4);
+    /* font-style: italic; */
+    color: var(--almostwhite);
+    /* min-height: 4em; */
+}
+
+.quote-author {
+    margin-top: 1.5em;
+    margin-right: 100px;
+    /* margin-left: auto; */
+    align-self: flex-end;
+}
+
+.quote-author-name {
+    font-size: var(--fontsize2);
+    color: var(--almostwhite);
+    font-weight: bold;
+}
+.quote-author-context {
+    font-size: var(--fontsize2);
+    color: var(--almostwhite);
+}
 
 
+/* MISSION SECTION */
 #mission_section {
     /* background-color: rgb(39, 44, 43); */
     background-size: cover; 
@@ -652,53 +681,6 @@ img.member {
     background-attachment: fixed;
     background-size: cover; 
 } */
-
-.quote-container {
-    margin: 0 auto;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    /* flex-direction: column; */
-    height: fit-content;
-    /* padding-top: 40vh; */
-    justify-self: center;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-}
-
-#slide-button {
-    margin-top: 80px;
-    background-color: transparent;
-    font-size: var(--fontsize2);
-    border: solid 1px var(--almostwhite);
-}
-
-.quote {
-    margin-top: 120px;
-    text-align-last: right;
-    font-size: var(--fontsize4);
-    /* font-style: italic; */
-    color: var(--almostwhite);
-    /* min-height: 4em; */
-}
-
-.quote-author {
-    margin-top: 1.5em;
-    margin-right: 100px;
-    /* margin-left: auto; */
-    align-self: flex-end;
-}
-
-.quote-author-name {
-    font-size: var(--fontsize2);
-    color: var(--almostwhite);
-    font-weight: bold;
-}
-.quote-author-context {
-    font-size: var(--fontsize2);
-    color: var(--almostwhite);
-}
 
 
 /* Section banner */
