@@ -409,7 +409,7 @@ img.logoImage {
 .author {
     text-align: end;
     margin: 0px 0px;
-    font-size: var(--fontsize1);
+    font-size: var(--fontsize2);
 }
 
 .new-class-right {
