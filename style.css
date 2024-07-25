@@ -29,6 +29,8 @@ body {
     --fontsize2: 18px;
     --fontsize3: 24px;
     --fontsize4: 54px;
+    --fontsize5: 62px;
+
 
     /* colors new */
     --almostwhite: #fffdfa;
@@ -244,7 +246,7 @@ img.logoImage {
 /* Landng quote */
 .quote-container {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     /* flex-direction: column; */
@@ -265,8 +267,10 @@ img.logoImage {
 
 .quote {
     margin-top: 120px;
-    text-align-last: right; /* puts last word to the right */
-    font-size: var(--fontsize4);
+    text-align: center;
+    /* text-align-last: right;  */
+    /* font-size: var(--fontsize5); */
+    font-size:calc(100% + 3.7vw);
     /* font-style: italic; */
     color: var(--almostwhite);
     /* min-height: 4em; */
@@ -360,7 +364,7 @@ img.logoImage {
     /* display: none; */
     display: flex;
     height: 95vh;
-    background-color:var(--almostblue);
+    background-color:#D3332B;
     /* padding: 100px; */
     position: relative;
 }
