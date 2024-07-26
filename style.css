@@ -383,8 +383,8 @@ img.logoImage {
 .new-class-intro {
     font-size: var(--fontsize4);
     font-weight: bold;
-    margin: 0px 120px;
-    margin-top: 85px;
+    margin: 0px 10vw;
+    margin-top: 7vw;
     margin-bottom: 40px;
     flex-grow: 1;
     flex-basis: 0;
@@ -394,17 +394,19 @@ img.logoImage {
 }
 
 .new-class-middle {
-    font-size: var(--fontsize3);
+    /* font-size: var(--fontsize3); */
+    font-size: calc(100% + 0.1vw);
+    /* font-size: 1.5vw; */
     line-height: 2;
-    padding: 24px 36px;
-    padding-top: 36px;
+    padding: 2vw;
+    padding-top: 2vw;
     flex-grow: 1;
     flex-basis: 0;
     /* background-color: rgba(31, 41, 55, 0.5); */
     background-color: rgba(0,0,0,.6);
     position: absolute;
     word-wrap: break-word;
-    transform: translate(0, -50%);
+    transform: translate(0, -40%);
     max-width: 65vw;
     left: 18vw;
     top: 60%;

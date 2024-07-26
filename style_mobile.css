@@ -158,11 +158,18 @@ padding-right: 8px;
 
 /* New Section CONSIDER RE-CODING FOR MOBILE COMPATIBILITY */
 
-/* .new-class-intro {
+
+.new-class-intro {
     font-size: 32px;
-    font-weight: bold;
-    margin: 0px 20px;
-    padding-top: 36px;
+}
+
+.new-class-middle {
+    /* font-size: var(--fontsize3); */
+    font-size:calc(80% + 0.1vw);
+    transform: translate(0, -40%);
+    max-width: 65vw;
+    left: 18vw;
+    top: 60%;
 }
 
 
