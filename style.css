@@ -424,7 +424,7 @@ img.logoImage {
     background-color: var(--almostyellow);
     /* background-image: url("./images/beachside_iStock-983502316.jpg"); */
     /* background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/denys-kostyuchenko-FQjUaIMQF3Q-unsplash.jpg"); */
-    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/legacy_1.png");
+    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/legacy_2.png");
     background-size: cover;
 }
 
