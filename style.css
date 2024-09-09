@@ -397,9 +397,8 @@ img.logoImage {
     /* font-size: var(--fontsize3); */
     font-size: calc(90% + 0.1vw);
     /* font-size: 1.5vw; */
-    line-height: 2;
-    padding: 2vw;
-    padding-top: 2vw;
+    line-height: 1.5;
+    padding: 3.5vw;
     flex-grow: 1;
     flex-basis: 0;
     /* background-color: rgba(31, 41, 55, 0.5); */
@@ -415,6 +414,7 @@ img.logoImage {
 .author {
     text-align: end;
     margin: 0px 0px;
+    margin-top: 16px;
     font-size: var(--fontsize2);
 }
 
@@ -424,7 +424,7 @@ img.logoImage {
     background-color: var(--almostyellow);
     /* background-image: url("./images/beachside_iStock-983502316.jpg"); */
     /* background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/features/denys-kostyuchenko-FQjUaIMQF3Q-unsplash.jpg"); */
-    background: linear-gradient(rgba(31, 41, 55,.2), rgba(31, 41, 55,.2)), url("images/legacy_state_house.jpg");
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("images/legacy_state_house.jpg");
     background-size: cover;
 }
 
