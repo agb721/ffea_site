@@ -407,7 +407,8 @@ img.logoImage {
     transform: translate(0, -40%);
     max-width: 65vw;
     left: 18vw;
-    top: 60%;
+    right:10vw;
+    top: 63%;
 }
 
 .author {
