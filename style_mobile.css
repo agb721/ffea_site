@@ -159,7 +159,11 @@ padding-right: 8px;
 }
 
 /* New Section CONSIDER RE-CODING FOR MOBILE COMPATIBILITY */
-
+/* new slides section */
+#new-slides-section {
+    /* display: none; */
+    height: 100vh;
+}
 
 .new-class-intro {
     font-size: 32px;
@@ -174,7 +178,10 @@ padding-right: 8px;
     left: 12vw;
     top: 60%;
 }
-
+.author {
+    margin-top: 8px;
+    font-size:calc(60% + 0.1vw);
+}
 
 
 /* Members section */
