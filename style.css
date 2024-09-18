@@ -297,13 +297,21 @@ img.logoImage {
 
 
 /* MISSION SECTION */
+.mission-container {
+    max-width: 100%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    /* padding: 10px; */
+    position: relative;
+}
+
 #mission_section {
     /* background-color: rgb(39, 44, 43); */
+    background: linear-gradient(to left, rgba(0,0,0,.0), rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,1)), url("images/florida_flag.png");
     background-size: cover; 
     object-fit: cover;
-    background-image: url("images/florida_flag.png");
-    background-position: center;
-    background: linear-gradient(to left, rgba(0,0,0,.0), rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,1)), url("images/florida_flag.png");
+    /* background-image: url("images/florida_flag.png"); */
+    /* background-position: center; */
     /* background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.4), rgba(0,0,0,1)), url("images/florida_flag.png"); */
     /* background-position: 300px; */
     background-repeat: no-repeat;
