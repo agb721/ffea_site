@@ -10,6 +10,8 @@ item 2 */
 
 body {
     margin: 0;
+    
+
     /* font-family: Garamond, serif; */
     /* font-family: "Raleway"; */
     font-family: "Montserrat", sans-serif;
@@ -298,7 +300,9 @@ img.logoImage {
 #mission_section {
     /* background-color: rgb(39, 44, 43); */
     background-size: cover; 
+    object-fit: cover;
     background-image: url("images/florida_flag.png");
+    background-position: center;
     background: linear-gradient(to left, rgba(0,0,0,.0), rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,1)), url("images/florida_flag.png");
     /* background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.4), rgba(0,0,0,1)), url("images/florida_flag.png"); */
     /* background-position: 300px; */
