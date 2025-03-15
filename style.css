@@ -126,6 +126,7 @@ img.logoImage {
  /* max-height: 100px; */
  height: 64px;
  transform: scale(1.6); 
+ -webkit-transform: scale(1.6); /* Safari */
  /* margin-top: 2em; */
 /* position: absolute; */
  overflow: hidden;
